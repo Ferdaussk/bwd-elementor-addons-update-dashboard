@@ -1,0 +1,45 @@
+==Changlog==
+
+++ Added new extensions
+++ 2.8.9v
+
+
+++ Added new extensions
+++ 2.9.0v
+
+
+++ Added new extensions
+++ 3.0.1v
+
+
+++ Code updated
+++ 3.0.2v
+
+
+++ Error solving and updated code
+++ 3.1.2v
+
+
+++ Updated code
+++ 3.1.3v
+
+
+++ Add new feature and updated code
+++ 3.2.3v
+
+
+++ Just updated code
+++ 3.2.4v
+
+
+++ Just updated css
+++ 3.2.5v
+
+
+++ Added a product compare widget
+++ 3.2.6v
+
+
+++ Update on admin dashboard
+++ 3.2.7v
+
