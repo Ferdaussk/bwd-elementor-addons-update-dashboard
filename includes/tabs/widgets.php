@@ -118,7 +118,7 @@ echo '<div id="widgets" class="bwd-admin-setting-tab">';
 								echo '<div class="bwd-widgets-info-icons">';
 									echo '<span class="bwd-widgets-info-icon"><img src="'.esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/info.svg').'" alt=""></span>';
 									echo '<a class="bwd-widgets-demo-icon" target="_blank" href="https://bestwpdeveloper.com/hero-section/"><img src="'.esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/demo.svg').'" alt=""></a>';
-									echo '<a class="bwd-widgets-video-icon" target="_blank" href="video-link-'.$i.'"><img src="'.esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/video.svg').'" alt=""></a>';
+									echo '<a class="bwd-widgets-video-icon" target="_blank" href="https://www.youtube.com/@bestwpdeveloper2605"><img src="'.esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/video.svg').'" alt=""></a>';
 									echo '<a class="bwd-widgets-doc-icon" target="_blank" href="https://bestwpdeveloper.com/documentation"><img src="'.esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/doc.svg').'" alt=""></a>';
 								echo '</div>';
 							echo '</div>';

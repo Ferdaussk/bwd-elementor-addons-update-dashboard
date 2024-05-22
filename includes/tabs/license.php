@@ -23,10 +23,20 @@ echo '<div id="license" class="bwd-admin-setting-tab">';
 						foreach($getLicense as $license=>$getL):
 						echo '<tr>';
 							echo '<td class="bwd-table-title"><span>'.$getL['name'].'</span></td>';
-							$free = $getL['free']==true?esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/cross.svg'):esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/right.svg');
-							$pro = $getL['pro']==true?esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/right.svg'):esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/cross.svg');
-							echo '<td><img src="'.$free.'" alt="Img"></td>';
-							echo '<td><img src="'.$pro.'" alt="Img"></td>';
+							if($getL['free']=='yes'){
+								echo '<td><img src="'.esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/cross.svg').'" alt="Img"></td>';
+							} elseif($getL['free']=='no'){
+								echo '<td><img src="'.esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/right.svg').'" alt="Img"></td>';
+							}else{
+								echo '<td><h4>'.$getL['free'].'</h4></td>';
+							}
+							if($getL['pro']=='yes'){
+								echo '<td><img src="'.esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/right.svg').'" alt="Img"></td>';
+							} elseif($getL['pro']=='no'){
+								echo '<td><img src="'.esc_url(plugin_dir_url( __FILE__ ).'../../assets/admin/dashboard/images/cross.svg').'" alt="Img"></td>';
+							}else{
+								echo '<td><h4>'.$getL['pro'].'</h4></td>';
+							}
 						echo '</tr>';
 						endforeach;
 					echo '</tbody>';
